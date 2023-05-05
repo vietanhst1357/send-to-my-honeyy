@@ -1,3 +1,6 @@
+setTimeout(() => {
+  document.querySelector('body').style = "visibility: visible"
+}, 1500);
 let highestZ = 1;
 
 class Paper {
