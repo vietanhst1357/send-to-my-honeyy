@@ -1,6 +1,7 @@
+alert('wait in 5 - 10s to load all content');
 setTimeout(() => {
   document.querySelector('body').style = "visibility: visible"
-}, 1500);
+}, 10000);
 let highestZ = 1;
 
 class Paper {
